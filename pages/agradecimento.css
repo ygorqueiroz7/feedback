@@ -1,0 +1,32 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Overpass", sans-serif;
+    -webkit-font-smoothingh: antialiased;
+}
+
+:root {
+    --dark-blue: #262E38;
+    --light-grey: #969FAD
+    --medium-grey: #37087988;
+    --orange: #FC7614;
+    --white: #FFFF;
+    --very-dark-blue: #131518;
+    --black-gradient: radial-gradient(98.96% 98.96% at 50% 0%, #232434 0%, #181E27 100%);
+}
+
+body {
+    background-color: var(--very-dark-blue);
+    height: 100svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: var(--black-gradient);
+    max-height: 412px;
+    padding: 32px;
+    border-radius: 30px;
+}
