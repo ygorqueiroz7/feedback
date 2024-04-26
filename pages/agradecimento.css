@@ -8,7 +8,7 @@
 
 :root {
     --dark-blue: #262E38;
-    --light-grey: #969FAD
+    --light-grey: #969FAD;
     --medium-grey: #37087988;
     --orange: #FC7614;
     --white: #FFFF;
@@ -25,9 +25,9 @@ body {
 }
 
 .card {
-    background-color: var(--black-gradient);
+    background: var(--black-gradient);
     text-align: center;
-    max-height: 412px;
+    max-width: 412px;
     padding: 45px 32px;
     border-radius: 30px;
 }
